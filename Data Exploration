@@ -1,1 +1,3 @@
+# Total no. of suicides (1985-2016)
+select sum(suicides_no) as total_suicides from master
 
