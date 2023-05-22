@@ -2,32 +2,6 @@
 The Aim of this project was to get familiar with executing SQL queries using MySQL by exploring various questions about the data.
 the data has been obtained via kaggle and data cleaning and expploration has been done in MySQL woekbench. Later on it is visualized using Tableau.
 
-The dataset includes the following attributes:
-
-year
-
-country
-
-sex
-
-age group
-
-suicides number
-
-population
-
-suicides per 100k
-
-country_year
-
-hdi for year
-
-gdp for year
-
-gdp per capita
-
-generation
-
 
 Steps:
 1. creating seperate relational databases to practice joins
