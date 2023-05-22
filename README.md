@@ -5,17 +5,29 @@ the data has been obtained via kaggle and data cleaning and expploration has bee
 The dataset includes the following attributes:
 
 year
+
 country
+
 sex
+
 age group
+
 suicides number
+
 population
+
 suicides per 100k
+
 country_year
+
 hdi for year
+
 gdp for year
+
 gdp per capita
+
 generation
+
 
 Steps:
 1. creating seperate relational databases to practice joins
