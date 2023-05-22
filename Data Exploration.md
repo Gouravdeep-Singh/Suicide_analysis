@@ -24,6 +24,12 @@ on g.id=m.id group by g.sex, m.age order by age
 select c.nation, sum(m.suicides_no) as suicides from master m 
 inner join country c on c.id=m.id group by c.nation order by suicides DESC limit 8
 
+![1](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/43b6005e-c2bf-424a-be0a-94744f9be050)
+
+# 6. details of year with highest suicides
+
+# 7. details about country with highest suicides
+
 
 
 
