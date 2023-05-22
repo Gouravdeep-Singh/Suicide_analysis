@@ -29,8 +29,12 @@ inner join country c on c.id=m.id group by c.nation order by suicides DESC limit
 # 6. Details of year with highest suicides
 year: select year, sum(suicides_no) as suicides from master group by year order by suicides DESC limit 5
 
+![1](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/3443ca4d-9e55-49e2-808f-170ea5edc28b)
 
-Details:
+Details: select m.year, g.sex, m.age, sum(m.suicides_no) as suicides from master m
+inner join gender g on g.id=m.id where m.year=1999 group by g.sex,m.age order by suicides desc limit 1
+
+
 
 # 7. Details about country with highest suicides
 country:
