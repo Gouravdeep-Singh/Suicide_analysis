@@ -7,3 +7,7 @@ select sum(suicides_no) as total_suicides from master
 # 2. Suicide per gender
 select g.sex, sum(m.suicides_no) as suicides from master m inner join gender g on g.id=m.id group by g.sex
 
+![2](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/27d2c667-cee3-4166-aa63-da59ef0f2a6a)
+
+# 3. Suicide per age group
+
