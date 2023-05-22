@@ -21,5 +21,9 @@ on g.id=m.id group by g.sex, m.age order by age
 ![4](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/f5027ed2-5a92-4c3c-a47f-3730e96d9c19)
 
 # 5. Top N countries per suicides
+select c.nation, sum(m.suicides_no) as suicides from master m 
+inner join country c on c.id=m.id group by c.nation order by suicides DESC limit 8
+
+
 
 
