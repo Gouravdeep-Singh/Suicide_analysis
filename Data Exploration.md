@@ -39,7 +39,10 @@ inner join gender g on g.id=m.id where m.year=1999 group by g.sex,m.age order by
 
 
 # 7. Details about country with highest suicides
-country:
+country: select c.nation,m.year, sum(m.suicides_no) as suicides from master m inner join country c
+on c.id=m.id group by c.nation,m.year order by suicides desc 
+
+
 
 
 Deatils: 
