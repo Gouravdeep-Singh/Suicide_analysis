@@ -44,7 +44,12 @@ on c.id=m.id group by c.nation,m.year order by suicides desc limit 1
 
 ![1](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/098ff17c-8545-4c55-9cdf-92c46643491d)
 
-Deatils: 
+Deatils: select c.nation,m.year,g.sex, m.age,sum(m.suicides_no) as suicides from master m inner join country c
+on c.id=m.id inner join gender g on c.id=g.id  group by c.nation,m.year,g.sex,m.age order by suicides desc limit 1
+
+![1](https://github.com/Gouravdeep-Singh/Suicide_analysis/assets/104523395/c215c8b8-42b3-4000-9f72-780cc75e4867)
+
+
 
 
 
