@@ -11,4 +11,4 @@ Steps:
 
 Dataset: https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016
 
-Tableau: https://public.tableau.com/app/profile/gouravdeep.singh2472/viz/Suicide_rate_Analysis/Dashboard1 
+Tableau: https://public.tableau.com/app/profile/gouravdeep.singh2472/viz/Suicide_rate_Analysis/Story1
