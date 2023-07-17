@@ -3,11 +3,11 @@ In this project, I aim to analyze a dataset containing suicide rates from variou
 
 Methodology:
 
-Data Preprocessing with MySQL: We will use MySQL to clean and preprocess the dataset, handling missing values, and standardizing the data format for analysis. This step ensures that our data is accurate and ready for exploration.
+Data Preprocessing with MySQL: I will use MySQL to clean and preprocess the dataset, handle missing values, and standardize the data format for analysis. This step ensures that our data is accurate and ready for exploration.
 
-Exploratory Data Analysis (EDA): Using MySQL, we will perform EDA to gain insights into the dataset. This step involves summarizing statistics, visualizing trends, and identifying any outliers or anomalies that may require further investigation.
+Exploratory Data Analysis (EDA): Using MySQL, I will perform EDA to gain insights into the dataset. This step involves summarizing statistics, visualizing trends, and identifying any outliers or anomalies that may require further investigation.
 
-Identifying Correlations: By utilizing MySQL, we will conduct a correlation analysis between suicide rates and socio-economic factors. This will help us understand the potential drivers behind suicide rates and their association with various demographic variables.
+Identifying Correlations: By utilizing MySQL, I will conduct a correlation analysis between suicide rates and socio-economic factors. This will help us understand the potential drivers behind suicide rates and their association with various demographic variables.
 
 Creating the Tableau Story: Once we have extracted valuable insights from the dataset, we will build an engaging and informative Tableau story. The story will be designed to present the data in a visually compelling way, using interactive dashboards, charts, and maps.
 
